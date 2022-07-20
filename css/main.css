@@ -199,7 +199,6 @@ header .mega-menu .links li a i {
 
 /* ----------------------- Landing start ----------------------- */
 .landing {
-  background-color: red;
   position: relative;
   min-height: calc(100vh - 72px);
   width: 100%;
