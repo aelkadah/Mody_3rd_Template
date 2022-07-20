@@ -227,8 +227,6 @@ header .mega-menu .links li a i {
 /* ----------------------- Landing start ----------------------- */
 .landing {
   position: relative;
-  min-height: calc(100vh - 72px);
-  width: 100%;
 }
 .landing::before {
   z-index: -1;
@@ -245,6 +243,8 @@ header .mega-menu .links li a i {
 .landing .container {
   display: flex;
   align-items: center;
+  min-height: calc(100vh - 72px);
+  width: 100%;
 }
 @media (max-width: 991px) {
   .landing .text {
